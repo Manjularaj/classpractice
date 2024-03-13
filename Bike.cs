@@ -6,26 +6,26 @@ using System.Threading.Tasks;
 
 namespace classpractice
 {
-    internal class Bike
+    public class Bike
     {//Field
         public string _brand;
-        public string _type;
+        public string _fuel;
         public string _color;
         public int _numberofwheels;
 
         //Properties
         public string Brand { get => _brand; set => _brand = value; }
-        public string Type { get => _type; set => _type = value; }
+        public string Fuel { get => _fuel; set => _fuel = value; }
         public string Color { get => _color; set => _color = value; }
         public int Numberofwheels { get => _numberofwheels; set => _numberofwheels = value; }
 
 
 
-        public Bike(string brand, string type, string color, int numberofwheels) //parameter constructor
+        public Bike(string brand, string fuel, string color, int numberofwheels) //parameter constructor
         {
 
             this.Brand = brand;
-            this.Type = type;
+            this.Fuel = fuel;
             this.Color = color;
             this.Numberofwheels = numberofwheels;
 
